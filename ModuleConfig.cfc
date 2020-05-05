@@ -10,13 +10,10 @@ component {
     this.viewParentLookup   = true;
     // If true, looks for layouts in the parent first, if not found, then in module. Else vice-versa
     this.layoutParentLookup = true;
-    // Module Entry Point
-    this.entryPoint         = "images-helper";
-    // CF Mapping
-    this.cfMapping          = "images-helper";
 
     function configure() {
         binder.map("ApiAuthHelper").to("#moduleMapping#.modules.api-auth-helper.models.ApiAuthHelper");
+
         settings = {
             baseUrl = "https://any-api.com/"
         };

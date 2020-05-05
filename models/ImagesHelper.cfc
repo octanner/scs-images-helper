@@ -1,6 +1,6 @@
 component singleton {
 
-	property name="settings" inject="coldbox:setting:image-helper";
+	property name="settings" inject="coldbox:setting:images-helper";
 	property name="apiAuthHelper" inject="ApiAuthHelper";
 
 	function get(
