@@ -1,7 +1,7 @@
 {
     "name":"Images Helper",
     "slug":"images-helper",
-    "version":"0.0.0",
+    "version":"0.0.1",
     "shortDescription":"A module to help send images to an image upload API",
     "description":"A module to help send images to an image upload API",
     "author":"Mike Burt",
@@ -20,7 +20,7 @@
     "type":"modules",
     "dependencies":{
         "coldbox":"^4.3.0+188",
-        "api-auth-helper":"0.0.0"
+        "api-auth-helper":"0.0.1"
     },
     "devDependencies":{
         "testbox":"^2.4.0+80"
