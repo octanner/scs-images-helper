@@ -56,11 +56,9 @@ component singleton {
 	function save(
 		required collection,
 		required resourceId,
-		required image,
-		formUpload = true
+		required imageUrl
 	){
 		var authToken = apiAuthHelper.getApiToken();
-		var uploadImage = arguments.formUpload ? getTempDirectory() & arguments.image.serverfile : arguments.image;
 		var repoUrl = getRepoUrl(collection = arguments.collection, resourceId = arguments.resourceId);
 		var fullUrl = settings.baseUrl & repoUrl;
 
@@ -72,7 +70,7 @@ component singleton {
 				result="result"
 			){
 				cfhttpparam(type = "header", name="Authorization", value = "Bearer " & authToken);
-				cfhttpparam(type = "file", name="image", file = uploadImage);
+				cfhttpparam(type = "file", name="image", file = arguments.imageUrl);
 			};
 
 			if( 
