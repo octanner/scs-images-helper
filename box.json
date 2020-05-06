@@ -1,7 +1,7 @@
 {
     "name":"Images Helper",
     "slug":"images-helper",
-    "version":"0.0.3",
+    "version":"0.0.4",
     "shortDescription":"A module to help send images to an image upload API",
     "description":"A module to help send images to an image upload API",
     "author":"Mike Burt",
@@ -9,7 +9,7 @@
         "Dan Murphy",
         "Eduardo Gomez"
     ],
-    "location":"octanner/scs-images-helper#0.0.3",
+    "location":"octanner/scs-images-helper#0.0.4",
     "homepage":"https://github.com/octanner/scs-images-helper",
     "documentation":"https://github.com/octanner/scs-images-helper",
     "repository":{
