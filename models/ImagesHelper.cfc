@@ -83,8 +83,6 @@ component singleton {
 				response.success = false;
 				response.content = result.Statuscode;
 			}
-
-			clearTempDirectory();
 		}
 		catch (any e){
 			response.success = false;
