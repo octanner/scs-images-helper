@@ -130,8 +130,8 @@ component singleton {
 
 	function getRepoUrl(
 		required collection,
-		resourceId,
-		imageId
+		resourceId = "",
+		imageId = ""
 	){		
 		var repoUrl = "";
 
