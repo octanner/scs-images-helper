@@ -3,9 +3,7 @@ component {
     this.title              = "Images Helper";
     this.name               = "images-helper";
     this.author             = "Mike Burt";
-     this.webUrl            = "https://github.com/octanner/scs-images-helper";
-    this.description        = "A module to help send send images to an image upload API";
-    this.version            = "1.0.2";
+    this.webUrl            = "https://github.com/octanner/scs-images-helper";
     // If true, looks for views in the parent first, if not found, then in the module. Else vice-versa
     this.viewParentLookup   = true;
     // If true, looks for layouts in the parent first, if not found, then in module. Else vice-versa
