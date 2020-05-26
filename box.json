@@ -1,29 +1,29 @@
 {
-    "name": "Images Helper",
-    "slug": "images-helper",
-    "version": "1.0.3",
-    "private": false,
-    "shortDescription": "A module to help send images to an image upload API",
-    "location": "ForgeboxStorage",
-    "type": "modules",
-    "ignore": [
+    "name":"Images Helper",
+    "slug":"images-helper",
+    "version":"1.0.4",
+    "private":false,
+    "shortDescription":"A module to help send images to an image upload API",
+    "location":"ForgeboxStorage",
+    "type":"modules",
+    "ignore":[
         "**/.*",
         "/test/",
         "/tests/"
     ],
-    "author": "Mike Burt",
-    "contributors": [
+    "author":"Mike Burt",
+    "contributors":[
         "Dan Murphy",
         "Eduardo Gomez"
     ],
-    "repository": {
-        "type": "git",
-        "URL": "https://github.com/octanner/scs-images-helper"
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/octanner/scs-images-helper"
     },
-    "dependencies": {
-        "api-auth-helper": "1.0.2"
+    "dependencies":{
+        "api-auth-helper":"1.0.2"
     },
-    "devDependencies": {
-        "testbox": "^2.4.0+80"
+    "devDependencies":{
+        "testbox":"^2.4.0+80"
     }
 }
