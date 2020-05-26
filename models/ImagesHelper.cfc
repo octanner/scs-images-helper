@@ -159,11 +159,15 @@ component singleton {
 	function clearTempDirectory(){
 		var directoryFiles = directoryList( getTempDirectory(), true );
 
-		directoryFiles.each(
-			function(e){
-				fileDelete(e);
-			}
-		);
+		if (directoryFiles.len() GT 0) {
+			try {
+				directoryFiles.each(
+					function(e){
+						fileDelete(e);
+					}
+				);
+			} catch (any e) {}
+		}
 	}
 
 }
