@@ -156,8 +156,10 @@ component singleton {
 		return repoUrl;
 	}
 
-	function clearTempDirectory(){
-		var directoryFiles = directoryList( getTempDirectory(), true );
+	function clearTempDirectory(
+		required directory
+	){
+		var directoryFiles = directoryList( arguments.directory, true );
 
 		if (directoryFiles.len() GT 0) {
 			try {
